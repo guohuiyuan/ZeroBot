@@ -50,6 +50,7 @@ func main() {
 - 通过 `init` 函数实现插件式
 - 底层与 Onebot 通信驱动可换，目前支持HTTP、正向/反向WS，且支持基于 `unix socket` 的通信（使用 `ws+unix://`）
 - 通过添加多个 driver 实现多Q机器人支持
+- 完整的 OneBot 11 标准 API + NapCat / NapNeko 扩展 API 支持
 
 ## 关联项目
 
